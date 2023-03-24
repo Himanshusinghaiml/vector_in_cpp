@@ -22,11 +22,13 @@ int main()
    v.resize(30);
     cout<<" size of vectore : "<<v.size()<<endl;
     v.pop_back();
+ 
     for(int ele:v)
     {
         cout<<ele<<" ";
     }
     // for loop
+ /*  we can use also normal loop as we can  */
     
     return 0;
 }
